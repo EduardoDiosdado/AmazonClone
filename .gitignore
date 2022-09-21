@@ -1,0 +1,5 @@
+node_modules/
+img/photoshop
+.DS_Store
+package-lock.json
+package.json

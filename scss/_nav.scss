@@ -1,0 +1,92 @@
+#nav {
+    background-color: $blue;
+    height: 6rem;
+
+
+
+    .searchBar {
+        width: 50rem;
+        /* top-left | top-right | bottom-right | bottom-left */
+        border-radius: .24rem 0 0 .24rem;
+        height: 3.5rem;
+        @include respond-to('xl') {
+            width: 90rem;
+        }
+    }
+
+    .searchButton {
+        background-color:$yellow;
+        border-radius: 0 .24rem .24rem 0;
+    }
+
+    .navItem {
+        margin: 0rem 1rem;
+        @include respond-to('xl') {
+            margin: 0rem 1.8rem;
+        }
+    }
+
+    .header__optionLineOne {
+        color: $grey;
+        font-weight: $line1-Weight;
+
+        @include respond-to('md') {
+            font-size: map-get($map:$line1-Size, $key:'md')
+        }
+
+        @include respond-to('lg') {
+            font-size: map-get($map:$line1-Size, $key:'lg')
+        }
+
+        @include respond-to('xl') {
+            font-size: map-get($map:$line1-Size, $key:'xl')
+        }
+
+        @include respond-to('xxl') {
+            font-size: map-get($map:$line1-Size, $key:'xxl')
+        }
+
+
+    }
+
+    .header__optionLineTwo {
+        color: $white;
+        font-weight: $line2-Weight;
+
+        @include respond-to('md') {
+            font-size: map-get($map:$line2-Size, $key:'md')
+        }
+
+        @include respond-to('lg') {
+            font-size: map-get($map:$line2-Size, $key:'lg')
+        }
+
+        @include respond-to('xl') {
+            font-size: map-get($map:$line2-Size, $key:'xl')
+        }
+
+        @include respond-to('xxl') {
+            font-size: map-get($map:$line2-Size, $key:'xxl')
+        }
+
+    }
+
+    .logo {
+
+        width: 100px;
+        object-fit: contain;
+        margin: 0 20px;
+        margin-top: 18px;
+
+
+    }
+
+    .cartButton {
+        border-radius: 0 .24rem .24rem 0;
+   
+    }
+
+    .cartValues {
+        background-color: $yellow;
+    }
+}
