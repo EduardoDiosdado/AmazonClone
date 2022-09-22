@@ -8,7 +8,7 @@ const btn4 = document.getElementById("btn4");
 const btn5 = document.getElementById("btn5");
 cartResult = document.querySelector("#cartValue")
 let counter;
-let total;
+let totalCart;
 
 const productsArray = [{
     id: 1,
@@ -114,8 +114,10 @@ if (cartResult) {
 }
 
 
+console.log(totalCart=localStorage.getItem('total'));
 
-console.log(localStorage.getItem('total'));
+
+
 
 
 
