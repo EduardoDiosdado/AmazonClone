@@ -11,9 +11,10 @@
 
 <body>
 
-    <nav class="navbar navbar-expand" id="nav"> 
-        <div class="d-flex justify-content-between justify-content-xl-around w-100">
-            <div class="align-self-center p-2 p-xl-0 me-xl-1">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand sticky-top" id="nav">
+        <div class="d-flex justify-content-between justify-content-xxl-around w-100">
+            <div class="align-self-center p-2 p-xxl-0 me-xxl-1">
                 <a class="navbar-brand " href="#"><img class="logo"
                         src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"" alt=" amazon logo"></a>
 
@@ -23,15 +24,17 @@
                 <form class="d-flex" role="search">
                     <input class="form-control searchBar " type="search" placeholder="Search" aria-label="Search">
                     <button class="btn searchButton" type="submit">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                          </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
                     </button>
                 </form>
             </div>
 
 
-            <div class=" align-self-center me-5 me-xl-0" id="navbarSupportedContent">
+            <div class=" align-self-center me-5 me-xxl-0" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="d-flex flex-column navItem">
                         <span class="header__optionLineOne">Hello</span>
@@ -47,20 +50,116 @@
                     </li>
                     <li class="align-self-center">
                         <button type="button" class="btn btn-primary position-relative">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="#f2f2f2" width="28" height="28" class="bi bi-cart align-self-center" viewBox="0 0 16 16">
-                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                              </svg>
-                            <span class="position-absolute top-0 start-100 translate-middle badge cartValues">
-                              100
-                              <span class="visually-hidden">unread messages</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#f2f2f2" width="28" height="28"
+                                class="bi bi-cart align-self-center" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            </svg>
+                            <span class="position-absolute top-0 start-100 translate-middle badge cartValues" id="cartValue">
+                                
+                                <span class="visually-hidden">unread messages</span>
                             </span>
-                          </button>
+                        </button>
                     </li>
                 </ul>
 
             </div>
         </div>
     </nav>
+
+    <!-- Main-->
+
+    <main class="productsSectionBg">
+
+        <section>
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+            alt="featured" class="home__image">
+        </section>
+
+        <section >
+           
+            <article>
+                <div class="row w-100">
+
+                    <div class="col-6  p-5 ">
+                        <div class="card w-100 cardRadious cardHeight p-4">
+                            <img src="https://m.media-amazon.com/images/I/81tnadOD8TL._AC_SY879_.jpg" class="productImg mx-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nine West Reloj de pulsera de malla para mujer NW/1981 con esfera de rayos solares</h5>
+                                <p class="card-text">$380.70</p>
+                                <button class="basket d-block mx-auto" id="btn1">Add to basket</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 p-5 "> 
+                        <div class="card w-100 cardRadious cardHeight p-4">
+                            <img src="https://m.media-amazon.com/images/I/71jAccnek0L._AC_SY879_.jpg" class="productImg mx-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Apple iPhone 12, 64GB, Púrpura (Reacondicionado)</h5>
+                                <p class="card-text">$11,464.00</p>
+                                <button class="basket d-block mx-auto" id="btn2">Add to basket </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </article>
+
+            <article>
+                <div class="row w-100">
+
+                    <div class="col-4  p-5 ">
+                        <div class="card w-100 cardRadious cardHeight p-4">
+                            <img src="https://m.media-amazon.com/images/I/61jLNwAULdL._AC_SX679_.jpg" class="productImg mx-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">HyperX QuadCast S - RGB USB Micrófono Condensador para PC, PS4, Mac, Gaming, Streaming, Podcasts, Twitch, YouTube con GalliumPi Bundle</h5>
+                                <p class="card-text">$2,299.00</p>
+                                <button class="basket d-block mx-auto" id="btn3">Add to basket </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 p-5"> 
+                        <div class="card w-100 cardRadious cardHeight p-4">
+                            <img src="https://m.media-amazon.com/images/I/71cQYybJC7L._AC_SX679_.jpg" class="productImg mx-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">HyperX Pulsefire Haste, Mouse para Gaming Ultraligero, 59 g, Diseño Hexagonal Honey Comb, RGB, Cable USB HyperFlex, hasta 16000 DPI, 6 Botones Programables, HMSH1-A-BK/G</h5>
+                                <p class="card-text">$699.00</p>
+                                <button class="basket d-block mx-auto" id="btn4">Add to basket </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 p-5"> 
+                        <div class="card w-100 cardRadious cardHeight p-4">
+                            <img src="https://m.media-amazon.com/images/I/61XZR0QDeBL._AC_SX679_.jpg" class="productImg mx-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">HyperX Alloy Origins Core, Teclado Gaming en Inglés Ten Keyless, Interruptores mecánicos HyperX RED, Cuerpo de aluminio, iluminación RGB, Software HyperX NGenuity, Tres ángulos</h5>
+                                <p class="card-text">$1,399.00 </p>
+                                <button class="basket d-block mx-auto" id="btn5">Add to basket </button>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </article>
+
+            
+
+            
+
+
+        </section>
+
+    </main>
+
+
+
 
 
 
@@ -69,6 +168,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>
+
+    <script src="js/index.js"></script>
 
 </body>
 

@@ -5,11 +5,11 @@
 
 
     .searchBar {
-        width: 50rem;
+        width: 60rem;
         /* top-left | top-right | bottom-right | bottom-left */
         border-radius: .24rem 0 0 .24rem;
         height: 3.5rem;
-        @include respond-to('xl') {
+        @include respond-to('xxl') {
             width: 90rem;
         }
     }
