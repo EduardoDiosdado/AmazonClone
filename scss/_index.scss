@@ -29,3 +29,41 @@
     border: .1rem solid;
 }
 
+
+.productTitle {
+    @include respond-to('md') {
+        font-size: map-get($map:$cardTittle-Size, $key:'md')
+    }
+
+    @include respond-to('lg') {
+        font-size: map-get($map:$cardTittle-Size, $key:'lg')
+    }
+
+    @include respond-to('xl') {
+        font-size: map-get($map:$cardTittle-Size, $key:'xl')
+    }
+
+    @include respond-to('xxl') {
+        font-size: map-get($map:$cardTittle-Size, $key:'xxl')
+    }
+    font-weight: $cardTittle-Weight;
+}
+
+.productText {
+    @include respond-to('md') {
+        font-size: map-get($map:$cardText-Size, $key:'md')
+    }
+
+    @include respond-to('lg') {
+        font-size: map-get($map:$cardText-Size, $key:'lg')
+    }
+
+    @include respond-to('xl') {
+        font-size: map-get($map:$cardText-Size, $key:'xl')
+    }
+
+    @include respond-to('xxl') {
+        font-size: map-get($map:$cardText-Size, $key:'xxl')
+    }
+    font-weight: $cardText-Weight;
+}

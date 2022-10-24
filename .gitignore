@@ -3,3 +3,5 @@ img/photoshop
 .DS_Store
 package-lock.json
 package.json
+database/
+js/index3Variation.js
