@@ -1,0 +1,84 @@
+.subtotal {
+    height: auto;
+    background-color: #f3f3f3;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+
+.subtotalButton {
+    background: $yellow;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+
+    @include respond-to('md') {
+        font-size: map-get($map:$subtotalText-Size, $key:'md')
+    }
+
+    @include respond-to('lg') {
+        font-size: map-get($map:$subtotalText-Size, $key:'lg')
+    }
+
+    @include respond-to('xl') {
+        font-size: map-get($map:$subtotalText-Size, $key:'xl')
+    }
+
+    @include respond-to('xxl') {
+        font-size: map-get($map:$subtotalText-Size, $key:'xxl')
+    }
+
+    font-weight: $subtotalText-Weight;
+
+}
+
+.subtotalTitle {
+    @include respond-to('md') {
+        font-size: map-get($map:$subtotalTitle-Size, $key:'md')
+    }
+
+    @include respond-to('lg') {
+        font-size: map-get($map:$subtotalTitle-Size, $key:'lg')
+    }
+
+    @include respond-to('xl') {
+        font-size: map-get($map:$subtotalTitle-Size, $key:'xl')
+    }
+
+    @include respond-to('xxl') {
+        font-size: map-get($map:$subtotalTitle-Size, $key:'xxl')
+    }
+
+    font-weight: $subtotalTitle-Weight;
+
+}
+
+.subtotalText {
+    @include respond-to('md') {
+        font-size: map-get($map:$subtotalText-Size, $key:'md')
+    }
+
+    @include respond-to('lg') {
+        font-size: map-get($map:$subtotalText-Size, $key:'lg')
+    }
+
+    @include respond-to('xl') {
+        font-size: map-get($map:$subtotalText-Size, $key:'xl')
+    }
+
+    @include respond-to('xxl') {
+        font-size: map-get($map:$subtotalText-Size, $key:'xxl')
+    }
+
+    font-weight: $subtotalText-Weight;
+}
+
+
+.cartProductImg {
+    width: 100%;
+    height: 20rem;
+    object-fit: contain;
+}

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 
 <body>
@@ -15,8 +16,8 @@
     <nav class="navbar navbar-expand sticky-top" id="nav">
         <div class="d-flex justify-content-between justify-content-xxl-around w-100">
             <div class="align-self-center p-2 p-xxl-0 me-xxl-1">
-                <a class="navbar-brand " href="#"><img class="logo"
-                        src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"" alt=" amazon logo"></a>
+                <a class="navbar-brand " href="index.html"><img class="logo"
+                        src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt=" amazon logo"></a>
 
             </div>
 
@@ -49,16 +50,20 @@
                         <span class="header__optionLineTwo">Prime</span>
                     </li>
                     <li class="align-self-center">
-                        <button type="button" class="btn btn-primary position-relative">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="#f2f2f2" width="28" height="28"
-                                class="bi bi-cart align-self-center" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                            </svg>
-                            <span class="position-absolute top-0 start-100 translate-middle badge cartValues" id="cartValue">
-                                <span class="visually-hidden">unread messages</span>
-                            </span>
-                        </button>
+                        <a href="src/cart.html">
+                            <button type="button" class="btn btn-primary position-relative">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#f2f2f2" width="28" height="28"
+                                    class="bi bi-cart align-self-center" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                </svg>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge cartValues cartHide"
+                                    id="cartValue">
+                                    <span class="visually-hidden"></span>
+                                </span>
+                            </button>
+                        </a>
                     </li>
                 </ul>
 
@@ -72,32 +77,34 @@
 
         <section>
             <img src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-            alt="featured" class="home__image">
+                alt="featured" class="home__image">
         </section>
 
-        <section >
-           
+        <section>
+
             <article>
                 <div class="row w-100">
 
                     <div class="col-6  p-5 ">
                         <div class="card w-100 cardRadious cardHeight p-4">
-                            <img src="https://m.media-amazon.com/images/I/81tnadOD8TL._AC_SY879_.jpg" class="productImg mx-auto" alt="...">
+                            <img src="https://m.media-amazon.com/images/I/81tnadOD8TL._AC_SY879_.jpg"
+                                class="productImg mx-auto" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title" id="name1">Nine West Reloj de pulsera de malla para mujer NW/1981 con esfera de rayos solares</h5>
-                                <p class="card-text" >$<span id="price1">380.70</span></p>
-                                <button class="basket d-block mx-auto" id="btn1">Add to basket</button>
+                                <div id="product0">
+                                </div>
+                                <button class="basket d-block mx-auto" id="btn0">Add to basket</button>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-6 p-5 "> 
+                    <div class="col-6 p-5 ">
                         <div class="card w-100 cardRadious cardHeight p-4">
-                            <img src="https://m.media-amazon.com/images/I/71jAccnek0L._AC_SY879_.jpg" class="productImg mx-auto" alt="...">
+                            <img src="https://m.media-amazon.com/images/I/71jAccnek0L._AC_SY879_.jpg"
+                                class="productImg mx-auto" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title" id="name2" >Apple iPhone 12, 64GB, Púrpura (Reacondicionado)</h5>
-                                <p class="card-text" >$ <span id="price2">11464.00</span> </p>
-                                <button class="basket d-block mx-auto" id="btn2">Add to basket </button>
+                                <div id="product1">
+                                </div>
+                                <button class="basket d-block mx-auto" id="btn1">Add to basket </button>
                             </div>
                         </div>
                     </div>
@@ -111,34 +118,37 @@
 
                     <div class="col-4  p-5 ">
                         <div class="card w-100 cardRadious cardHeight p-4">
-                            <img src="https://m.media-amazon.com/images/I/61jLNwAULdL._AC_SX679_.jpg" class="productImg mx-auto" alt="...">
+                            <img src="https://m.media-amazon.com/images/I/61jLNwAULdL._AC_SX679_.jpg"
+                                class="productImg mx-auto" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title" id="name3">HyperX QuadCast S - RGB USB Micrófono Condensador para PC, PS4, Mac, Gaming, Streaming, Podcasts, Twitch, YouTube con GalliumPi Bundle</h5>
-                                <p class="card-text" >$ <span id="price3"> 2299.00</span></p>
+                                <div id="product2">
+                                </div>
+                                <button class="basket d-block mx-auto" id="btn2">Add to basket </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 p-5">
+                        <div class="card w-100 cardRadious cardHeight p-4">
+                            <img src="https://m.media-amazon.com/images/I/71cQYybJC7L._AC_SX679_.jpg"
+                                class="productImg mx-auto" alt="...">
+                            <div class="card-body">
+                                <div id="product3">
+                                </div>
                                 <button class="basket d-block mx-auto" id="btn3">Add to basket </button>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-4 p-5"> 
+                    <div class="col-4 p-5">
                         <div class="card w-100 cardRadious cardHeight p-4">
-                            <img src="https://m.media-amazon.com/images/I/71cQYybJC7L._AC_SX679_.jpg" class="productImg mx-auto" alt="...">
+                            <img src="https://m.media-amazon.com/images/I/61XZR0QDeBL._AC_SX679_.jpg"
+                                class="productImg mx-auto" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title" id="name4">HyperX Pulsefire Haste, Mouse para Gaming Ultraligero, 59 g, Diseño Hexagonal Honey Comb, RGB, Cable USB HyperFlex, hasta 16000 DPI, 6 Botones Programables, HMSH1-A-BK/G</h5>
-                                <p class="card-text" > $ <span id="price4">699.00</span> </p>
+                                <div id="product4">
+                                </div>
                                 <button class="basket d-block mx-auto" id="btn4">Add to basket </button>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-4 p-5"> 
-                        <div class="card w-100 cardRadious cardHeight p-4">
-                            <img src="https://m.media-amazon.com/images/I/61XZR0QDeBL._AC_SX679_.jpg" class="productImg mx-auto" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title" id="name5">HyperX Alloy Origins Core, Teclado Gaming en Inglés Ten Keyless, Interruptores mecánicos HyperX RED, Cuerpo de aluminio, iluminación RGB, Software HyperX NGenuity, Tres ángulos</h5>
-                                <p class="card-text" > $ <span id="price5"> 1399.00</span>  </p>
-                                <button class="basket d-block mx-auto" id="btn5">Add to basket </button>
-                                
                             </div>
                         </div>
                     </div>
@@ -148,9 +158,9 @@
 
             </article>
 
-            
 
-            
+
+
 
 
         </section>
@@ -167,7 +177,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="js/index.js"></script>
 
 </body>

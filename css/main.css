@@ -178,6 +178,99 @@ body {
   }
 }
 
+.subtotal {
+  height: auto;
+  background-color: #f3f3f3;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+
+.subtotalButton {
+  background: #ff9900;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .subtotalButton {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .subtotalButton {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .subtotalButton {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1400px) {
+  .subtotalButton {
+    font-size: 1.3rem;
+  }
+}
+
+.subtotalTitle {
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .subtotalTitle {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 992px) {
+  .subtotalTitle {
+    font-size: 1.45rem;
+  }
+}
+@media (min-width: 1200px) {
+  .subtotalTitle {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1400px) {
+  .subtotalTitle {
+    font-size: 1.6rem;
+  }
+}
+
+.subtotalText {
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .subtotalText {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .subtotalText {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .subtotalText {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1400px) {
+  .subtotalText {
+    font-size: 1.3rem;
+  }
+}
+
+.cartProductImg {
+  width: 100%;
+  height: 20rem;
+  object-fit: contain;
+}
+
 /*!
  * Bootstrap  v5.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

@@ -2,9 +2,7 @@
 
 $fontMain:'PT Sans', sans-serif;
 
-
-
-// nav 
+ 
 $line1-Size: (
     'md': 1rem,
     'lg': 1rem,
@@ -34,3 +32,18 @@ $cardText-Size: (
     'xl': 1.25rem,
     'xxl': 1.3rem);
 $cardText-Weight: 300;
+
+$subtotalTitle-Size: (
+    'md': 1.3rem,
+    'lg': 1.45rem,
+    'xl': 1.5rem,
+    'xxl': 1.6rem);
+$subtotalTitle-Weight: 700;
+
+
+$subtotalText-Size: (
+    'md': 1rem,
+    'lg': 1rem,
+    'xl': 1.3rem,
+    'xxl': 1.3rem);
+$subtotalText-Weight: 400;

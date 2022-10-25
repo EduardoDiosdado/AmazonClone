@@ -15,8 +15,8 @@
     <nav class="navbar navbar-expand sticky-top" id="nav">
         <div class="d-flex justify-content-between justify-content-xxl-around w-100">
             <div class="align-self-center p-2 p-xxl-0 me-xxl-1">
-                <a class="navbar-brand " href="#"><img class="logo"
-                        src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"" alt=" amazon logo"></a>
+                <a class="navbar-brand " href="../index.html"><img class="logo"
+                        src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt=" amazon logo"></a>
 
             </div>
 
@@ -49,16 +49,21 @@
                         <span class="header__optionLineTwo">Prime</span>
                     </li>
                     <li class="align-self-center">
-                        <button type="button" class="btn btn-primary position-relative">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="#f2f2f2" width="28" height="28"
-                                class="bi bi-cart align-self-center" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                            </svg>
-                            <span class="position-absolute top-0 start-100 translate-middle badge cartValues cartHide" id="cartValue">
-                                <span class="visually-hidden"></span>
-                            </span>
-                        </button>
+                        <a href="cart.html">
+                            <button type="button" class="btn btn-primary position-relative">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#f2f2f2" width="28" height="28"
+                                    class="bi bi-cart align-self-center" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                </svg>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge cartValues cartHide"
+                                    id="cartValue">
+                                    <span class="visually-hidden"></span>
+                                </span>
+                            </button>
+
+                        </a>
                     </li>
                 </ul>
 
@@ -67,7 +72,28 @@
     </nav>
 
     <!-- Main-->
+    <main>
+        <div class="row w-100 p-0 m-0">
+            <div class="col-8 p-5 m-0">
+                <div id="cartProducts">
 
+                    
+
+                </div>
+            </div>
+            <div class="col-4 p-5">
+                <div class="d-flex flex-column mx-auto subtotal p-5 w-75 align-self-center">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <h2 class="subtotalText align-self-center m-0" id="itemsOnCart"></h2>
+                        <p class="subtotalTitle align-self-center m-0" id="totalAmountCart"></p>
+                    </div>
+
+                    <button class="subtotalButton">Proceed to checkout</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
 
 
 
@@ -76,7 +102,9 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>
 
-    <script src="../js/index2.js"></script>
+
+    <script src="../js/cart.js"></script>
+
 
 </body>
 

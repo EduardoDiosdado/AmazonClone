@@ -5,3 +5,5 @@ package-lock.json
 package.json
 database/
 js/index3Variation.js
+js/indexOld.js
+src/indexOld.html
