@@ -1,0 +1,27 @@
+[{
+    "id": 0,
+    "desc": "Nine West Reloj de pulsera de malla para mujer NW/1981 con esfera de rayos solares",
+    "price": 380.70,
+    "img_url":"https://m.media-amazon.com/images/I/81tnadOD8TL._AC_SY879_.jpg"
+}, {
+    "id": 1,
+    "desc": "Apple iPhone 12, 64GB, Púrpura (Reacondicionado)",
+    "price": 11464.00,
+    "img_url":"https://m.media-amazon.com/images/I/71jAccnek0L._AC_SY879_.jpg"
+}, {
+    "id": 2,
+    "desc": "HyperX QuadCast S - RGB USB Micrófono Condensador para PC, PS4, Mac, Gaming, Streaming, Podcasts, Twitch, YouTube con GalliumPi Bundle",
+    "price": 2299.00,
+    "img_url":"https://m.media-amazon.com/images/I/61jLNwAULdL._AC_SX679_.jpg"
+}, {
+    "id": 3,
+    "desc": "HyperX Pulsefire Haste, Mouse para Gaming Ultraligero, 59 g, Diseño Hexagonal Honey Comb, RGB, Cable USB HyperFlex, hasta 16000 DPI, 6 Botones Programables, HMSH1-A-BK/G",
+    "price": 699.00,
+    "img_url":"https://m.media-amazon.com/images/I/71cQYybJC7L._AC_SX679_.jpg"
+},
+{
+    "id": 4,
+    "desc": "HyperX Alloy Origins Core, Teclado Gaming en Inglés Ten Keyless, Interruptores mecánicos HyperX RED, Cuerpo de aluminio, iluminación RGB, Software HyperX NGenuity, Tres ángulos",
+    "price": 1399.00,
+    "img_url":"https://m.media-amazon.com/images/I/61XZR0QDeBL._AC_SX679_.jpg"
+}]
